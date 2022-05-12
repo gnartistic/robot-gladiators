@@ -17,6 +17,10 @@ var fight = function (enemyName) {
   while (enemyHealth > 0) {
     // place fight function code block here . . .
 
+  // if the enemy-robot's health is zero or less, exit from the fight loop.
+  while (playerHealth > 0 && enemyHealth > 0) {
+    // ask player if they'd like to fight or run
+    var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
 
     // ask player if they'd like to fight or run
     var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
