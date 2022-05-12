@@ -72,6 +72,7 @@ var fight = function (enemyName) {
       window.alert("You need to pick a valid option. Try again!");
     }
   }
+}
 }; // end of fight function
 
 // run fight function to start game
